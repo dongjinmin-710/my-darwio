@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5">
+  <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
+    <mxGraphModel dx="552" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-1" value="性能稳定性框架" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="280" width="690" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="110" y="560" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-3" value="底层能力" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="20" y="560" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-15" value="framework" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="20" y="295" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-17" value="utils" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="20" y="425" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-18" value="configs" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="20" y="160" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-19" value="操作" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="20" y="30" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="110" y="30" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fxud_-eRqa8tmK-rs8ZK-1" source="fxud_-eRqa8tmK-rs8ZK-24" target="fxud_-eRqa8tmK-rs8ZK-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-24" value="ADB链接设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-29" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Moblieperf：性能数据监控&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="575" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-32" value="UIautomator：UI自动化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="607.5" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="110" y="430" width="560" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-35" value="语音合成&amp;amp;音频播放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="457.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-39" value="结果统计&amp;amp;知音楼通知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="270" y="457.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-40" value="多线程启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="410" y="457.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-41" value="ADB方法封装" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="540" y="457.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="110" y="295" width="560" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="110" y="160" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-44" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Adbutils：识别设备、获取设备信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="640" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-46" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;&quot;&gt;base_test&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;通用测试逻辑&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="130" y="327.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-47" value="config_manager&lt;br&gt;配置管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="270" y="327.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-48" value="device_tests&lt;br&gt;特定设备处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="410" y="327.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-49" value="test_factory&lt;br&gt;测试工厂，创建设备实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="540" y="327.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-50" value="&lt;div style=&quot;orphans: 2;&quot;&gt;.json&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="150" y="192.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="340" y="170" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-54" value="" style="endArrow=classic;html=1;rounded=0;" parent="fxud_-eRqa8tmK-rs8ZK-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="219.5" as="sourcePoint" />
+            <mxPoint x="340" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fxud_-eRqa8tmK-rs8ZK-1" source="fxud_-eRqa8tmK-rs8ZK-25" target="fxud_-eRqa8tmK-rs8ZK-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-25" value="执行脚本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="260" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="400" y="40" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-57" value="自动识别设备型号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="417" y="50" width="183" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-26" value="执行设备对应方法、播放音频" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="417" y="80" width="183" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-27" value="记录数据、上报" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="417" y="110" width="183" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-61" value="音频映射" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="360" y="180" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-62" value="坐标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="360" y="210" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxud_-eRqa8tmK-rs8ZK-63" value="超时时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="fxud_-eRqa8tmK-rs8ZK-1" vertex="1">
+          <mxGeometry x="360" y="240" width="240" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
