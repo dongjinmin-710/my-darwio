@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="25.0.1">
+  <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
+    <mxGraphModel dx="1230" dy="956" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+      <root>
+        <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
+        <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-3" value="内容管理" style="whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="45" y="332" width="248" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-4" value="标注体系" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-228.5" y="332" width="246" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-5" value="计划管理" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="325" y="332" width="255" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-14" value="资源管理" style="whiteSpace=wrap;html=1;fillColor=#E3C800;" parent="1" vertex="1">
+          <mxGeometry x="44" y="410" width="82" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-15" value="课程管理" style="whiteSpace=wrap;html=1;fillColor=#E3C800;" parent="1" vertex="1">
+          <mxGeometry x="131" y="410" width="79" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-16" value="电子教辅管理" style="whiteSpace=wrap;html=1;fillColor=#E3C800;" parent="1" vertex="1">
+          <mxGeometry x="42" y="462" width="125" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-17" value="试卷中心" style="whiteSpace=wrap;html=1;fillColor=#E3C800;" parent="1" vertex="1">
+          <mxGeometry x="174" y="462" width="121" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-18" value="试卷管理" style="whiteSpace=wrap;html=1;fillColor=#E3C800;" parent="1" vertex="1">
+          <mxGeometry x="216" y="410" width="77" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-19" value="基础知识树&lt;br&gt;（新/新课改）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-226" y="410" width="115" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-21" value="教材版本树&lt;br&gt;（新/新课改）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-226" y="462" width="241" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqJrRejYFWnzO2pTp0n-1" value="计划模版管理" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="325" y="407" width="114" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqJrRejYFWnzO2pTp0n-2" value="计划广场运营" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="459" y="407" width="116" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqJrRejYFWnzO2pTp0n-3" value="计划审核" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="325" y="462" width="249" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-35" value="后台功能模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="-304" width="134.5" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-37" value="C端业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="-304" width="115" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Vc6JZsU2i1zLbo4cy2iJ-20" value="考点树&lt;br&gt;（新/新课改）" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-97.75" y="410" width="112" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-46" value="精准学1.0&amp;amp;精准学1.5" style="whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="543" width="239.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-51" value="同步课" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="42" y="545" width="85" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-52" value="同步练" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="137" y="545" width="75" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-53" value="教辅练" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="224" y="543" width="71" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-54" value="试卷中心" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="595" width="256" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-55" value="计划广场" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="325" y="538" width="252" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-56" value="达人计划&amp;amp;学霸计划" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="325" y="593" width="252" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-57" value="后台功能模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="332" width="46" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-58" value="对应C端业务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="538" width="50.5" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-59" value="精准学新课改" style="whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-225.25" y="593" width="239.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dqtoegci2eAZNksbzh9z-60" value="CMS内容生产平台" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="257" width="864" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
