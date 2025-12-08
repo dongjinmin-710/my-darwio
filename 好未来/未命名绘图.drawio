@@ -181,7 +181,7 @@
           <mxGeometry height="55" width="110" x="540" y="327.5" as="geometry" />
         </mxCell>
         <mxCell id="z7ng1b5I2kM3_9Lz2F4o-27" parent="z7ng1b5I2kM3_9Lz2F4o-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;orphans: 2;&quot;&gt;.json&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55" width="120" x="150" y="192.5" as="geometry" />
+          <mxGeometry height="47.5" width="140" x="150" y="192.5" as="geometry" />
         </mxCell>
         <mxCell id="z7ng1b5I2kM3_9Lz2F4o-28" parent="z7ng1b5I2kM3_9Lz2F4o-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="100" width="280" x="340" y="170" as="geometry" />
