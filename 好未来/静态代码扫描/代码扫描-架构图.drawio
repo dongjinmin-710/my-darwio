@@ -76,7 +76,7 @@
         <mxCell id="mncAVvJtPpeknERfUIQ4-24" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="BI看版数据展示" vertex="1">
           <mxGeometry height="70" width="230" x="130" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="mncAVvJtPpeknERfUIQ4-25" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="点对点报告通知" vertex="1">
+        <mxCell id="mncAVvJtPpeknERfUIQ4-25" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="报告通知" vertex="1">
           <mxGeometry height="70" width="230" x="410" y="50" as="geometry" />
         </mxCell>
       </root>
