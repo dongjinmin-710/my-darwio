@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="F7NMXYymAI_Y4ROvBx0B">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mncAVvJtPpeknERfUIQ4-1" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="静态代码扫描" vertex="1">
+          <mxGeometry height="695" width="690" x="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-2" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="120" width="570" x="100" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-3" parent="mncAVvJtPpeknERfUIQ4-1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触发层" vertex="1">
+          <mxGeometry height="120" width="60" x="20" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-4" parent="mncAVvJtPpeknERfUIQ4-1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="服务层" vertex="1">
+          <mxGeometry height="120" width="60" x="20" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-5" parent="mncAVvJtPpeknERfUIQ4-1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="扫描层" vertex="1">
+          <mxGeometry height="120" width="60" x="20" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-6" parent="mncAVvJtPpeknERfUIQ4-1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="数据层" vertex="1">
+          <mxGeometry height="120" width="60" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-7" parent="mncAVvJtPpeknERfUIQ4-1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="用户层" vertex="1">
+          <mxGeometry height="120" width="60" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-8" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="120" width="560" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-9" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;云构建平台&lt;/span&gt;" vertex="1">
+          <mxGeometry height="41.25" width="240" x="120" y="628.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-10" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="115" width="560" x="110" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-11" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SonarScanner Client" vertex="1">
+          <mxGeometry height="30" width="500" x="130" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-12" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SonarQube Server" vertex="1">
+          <mxGeometry height="30" width="500" x="130" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-13" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="115" width="560" x="110" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-14" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="120" width="560" x="110" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-15" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;orphans: 4;&quot;&gt;应用信息记录模块&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="120" x="130" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-16" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="问题记录模块" vertex="1">
+          <mxGeometry height="55" width="120" x="270" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-17" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="报告生成模块" vertex="1">
+          <mxGeometry height="55" width="110" x="410" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-18" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="工具模块" vertex="1">
+          <mxGeometry height="55" width="110" x="540" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-19" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Jenkins平台" vertex="1">
+          <mxGeometry height="40" width="240" x="400" y="628.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-20" parent="mncAVvJtPpeknERfUIQ4-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="应用信息" vertex="1">
+          <mxGeometry height="70" width="120" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-21" parent="mncAVvJtPpeknERfUIQ4-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="应用问题" vertex="1">
+          <mxGeometry height="70" width="123" x="317" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-22" parent="mncAVvJtPpeknERfUIQ4-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="应用报告" vertex="1">
+          <mxGeometry height="70" width="130" x="490" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-23" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Scanner配置接入&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="520" x="120" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-24" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="BI看版数据展示" vertex="1">
+          <mxGeometry height="70" width="230" x="130" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mncAVvJtPpeknERfUIQ4-25" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="点对点报告通知" vertex="1">
+          <mxGeometry height="70" width="230" x="410" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
