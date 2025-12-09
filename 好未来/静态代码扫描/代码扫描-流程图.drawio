@@ -180,7 +180,7 @@
             <mxPoint x="-70" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据库" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;" value="数据库" vertex="1">
           <mxGeometry height="1040" width="180" x="700" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-45" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
@@ -188,8 +188,11 @@
             <mxPoint x="80" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-155" parent="b8TRkYSkjG2ReapsLzzX-44" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#dae8fc;strokeColor=#FFB38D;opacity=50;" value="" vertex="1">
-          <mxGeometry height="160" width="440" x="-300" y="500" as="geometry" />
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-155" parent="b8TRkYSkjG2ReapsLzzX-44" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#FCA897;strokeColor=#FFB38D;opacity=50;" value="" vertex="1">
+          <mxGeometry height="150" width="450" x="-310" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-181" parent="b8TRkYSkjG2ReapsLzzX-44" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF2D;strokeColor=#d6b656;" value="获取问题" vertex="1">
+          <mxGeometry height="35" width="420" x="-290" y="510" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-46" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8">
           <mxGeometry relative="1" as="geometry">
@@ -230,9 +233,6 @@
             <mxPoint x="-100" y="630" as="sourcePoint" />
             <mxPoint x="100" y="630" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-181" parent="b8TRkYSkjG2ReapsLzzX-44" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF2D;strokeColor=#d6b656;" value="获取问题" vertex="1">
-          <mxGeometry height="35" width="420" x="-290" y="510" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="消息通知/看版展示" vertex="1">
           <mxGeometry height="1040" width="220" x="880" y="20" as="geometry" />
