@@ -273,6 +273,9 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9.保存应用问题数据至数据库" vertex="1">
           <mxGeometry height="30" width="210" x="850" y="1080" as="geometry" />
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF2D;strokeColor=#d6b656;" value="更新应用信息" vertex="1">
+          <mxGeometry height="30" width="230" x="820" y="800" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
