@@ -94,8 +94,14 @@
             <mxPoint x="80" y="540" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-82" edge="1" parent="b8TRkYSkjG2ReapsLzzX-52" source="b8TRkYSkjG2ReapsLzzX-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="b8TRkYSkjG2ReapsLzzX-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-57" parent="b8TRkYSkjG2ReapsLzzX-52" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;异常展示&lt;/b&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="90" x="35" y="40" as="geometry" />
+          <mxGeometry height="50" width="105" x="35" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-81" parent="b8TRkYSkjG2ReapsLzzX-52" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;异常展示&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="35" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
