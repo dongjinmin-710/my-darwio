@@ -58,7 +58,7 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-70" parent="b8TRkYSkjG2ReapsLzzX-9" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;SonarQube&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="100" x="30.000000000000004" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-77" parent="b8TRkYSkjG2ReapsLzzX-9" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;获取项目默认版本ID&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-77" parent="b8TRkYSkjG2ReapsLzzX-9" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;SonarQube&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="100" x="29.999999999999996" y="700" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-98" parent="b8TRkYSkjG2ReapsLzzX-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;2.触发代码扫描&lt;/font&gt;" vertex="1">
