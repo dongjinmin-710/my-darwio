@@ -67,6 +67,23 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-100" parent="b8TRkYSkjG2ReapsLzzX-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;3.执行静态分析&lt;/span&gt;" vertex="1">
           <mxGeometry height="20" width="170" x="30" y="180" as="geometry" />
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-99" edge="1" parent="b8TRkYSkjG2ReapsLzzX-9" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="200" />
+              <mxPoint x="140" y="210" />
+              <mxPoint x="130" y="230" />
+            </Array>
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="80" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-129" edge="1" parent="b8TRkYSkjG2ReapsLzzX-9" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="390" as="sourcePoint" />
+            <mxPoint x="80" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-22" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="扫描平台" vertex="1">
           <mxGeometry height="900" width="300" x="490" y="20" as="geometry" />
         </mxCell>
@@ -113,6 +130,9 @@
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-124" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5.保存应用信息记录至数据库" vertex="1">
           <mxGeometry height="20" width="160" x="140" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-127" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5.保存应用信息记录至数据库" vertex="1">
+          <mxGeometry height="20" width="160" x="210" y="430" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据库" vertex="1">
           <mxGeometry height="900" width="195" x="790" y="20" as="geometry" />
@@ -185,17 +205,6 @@
             <mxPoint x="80" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-99" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="620" y="300" />
-              <mxPoint x="630" y="310" />
-              <mxPoint x="620" y="330" />
-            </Array>
-            <mxPoint x="570" y="300" as="sourcePoint" />
-            <mxPoint x="570" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-118" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -209,6 +218,12 @@
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-120" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.创建/更新应用信息" vertex="1">
           <mxGeometry height="30" width="120" x="780" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-128" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="590" as="sourcePoint" />
+            <mxPoint x="30" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
