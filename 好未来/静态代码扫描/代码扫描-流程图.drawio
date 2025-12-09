@@ -164,7 +164,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-137" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9.问题对比逻辑" vertex="1">
-          <mxGeometry height="20" width="170" x="70" y="510" as="geometry" />
+          <mxGeometry height="20" width="170" x="60" y="490" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据库" vertex="1">
           <mxGeometry height="900" width="195" x="830" y="20" as="geometry" />
