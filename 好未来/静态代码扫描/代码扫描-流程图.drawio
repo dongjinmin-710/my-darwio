@@ -188,7 +188,7 @@
             <mxPoint x="80" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-155" parent="b8TRkYSkjG2ReapsLzzX-44" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#dae8fc;strokeColor=#FFB38D;" value="" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-155" parent="b8TRkYSkjG2ReapsLzzX-44" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#dae8fc;strokeColor=#FFB38D;opacity=50;" value="" vertex="1">
           <mxGeometry height="160" width="440" x="-300" y="500" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-46" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8">
