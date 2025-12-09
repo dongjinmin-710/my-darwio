@@ -108,7 +108,7 @@
               <mxPoint x="380" y="830" />
             </Array>
             <mxPoint x="110" y="830" as="sourcePoint" />
-            <mxPoint x="500" y="830" as="targetPoint" />
+            <mxPoint x="480" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-142" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13.用户接收通知&amp;amp;查看看版" vertex="1">
