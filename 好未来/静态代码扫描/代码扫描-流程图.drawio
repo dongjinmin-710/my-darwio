@@ -278,6 +278,7 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF2D;strokeColor=#d6b656;" value="更新应用信息" vertex="1">
           <mxGeometry height="30" width="230" x="820" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-260" parent="0" value="0" />
       </root>
     </mxGraphModel>
   </diagram>
