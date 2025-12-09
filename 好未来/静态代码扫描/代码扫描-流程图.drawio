@@ -1,17 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="-YuBIUZelehNLmzz3Wr6">
-    <mxGraphModel dx="2285" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="b8TRkYSkjG2ReapsLzzX-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;静态代码扫描流程&lt;/span&gt;" vertex="1">
-          <mxGeometry height="800" width="1245" x="260" y="200" as="geometry" />
+          <mxGeometry height="800" width="1245" x="240" y="160" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-2" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="用户" vertex="1">
           <mxGeometry height="780" width="130" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-5" parent="b8TRkYSkjG2ReapsLzzX-2" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;发起构建流程&lt;/span&gt;&lt;/h5&gt;" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-65" edge="1" parent="b8TRkYSkjG2ReapsLzzX-2" source="b8TRkYSkjG2ReapsLzzX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b8TRkYSkjG2ReapsLzzX-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-5" parent="b8TRkYSkjG2ReapsLzzX-2" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;用户&lt;/span&gt;&lt;/h5&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="17" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-63" parent="b8TRkYSkjG2ReapsLzzX-2" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;用户&lt;/span&gt;&lt;/h5&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="15" y="700" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-6" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="构建平台" vertex="1">
           <mxGeometry height="780" width="180" x="130" y="20" as="geometry" />
@@ -19,8 +25,11 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-7" parent="b8TRkYSkjG2ReapsLzzX-6" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;构建流程&lt;/span&gt;&lt;/h5&gt;" vertex="1">
           <mxGeometry height="70" width="100" x="40" y="135" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-62" parent="b8TRkYSkjG2ReapsLzzX-6" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;扫描流程&lt;/span&gt;&lt;/h5&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="40" y="390" as="geometry" />
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-62" parent="b8TRkYSkjG2ReapsLzzX-6" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;构建平台&lt;/span&gt;&lt;/h5&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-66" parent="b8TRkYSkjG2ReapsLzzX-6" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h5&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;构建平台&lt;/span&gt;&lt;/h5&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-9" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="SonarQube" vertex="1">
           <mxGeometry height="780" width="220" x="310" y="20" as="geometry" />
