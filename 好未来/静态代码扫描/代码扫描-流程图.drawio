@@ -8,7 +8,7 @@
           <mxGeometry height="160" width="260" x="810" y="790" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;静态代码扫描流程&lt;/span&gt;" vertex="1">
-          <mxGeometry height="1060" width="1100" x="240" y="460" as="geometry" />
+          <mxGeometry height="1060" width="1120" x="240" y="460" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-2" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="用户" vertex="1">
           <mxGeometry height="1040" width="160" y="20" as="geometry" />
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-9" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 13px; text-wrap-mode: wrap;&quot;&gt;SonarQube&lt;/span&gt;" vertex="1">
-          <mxGeometry height="1040" width="150" x="340" y="20" as="geometry" />
+          <mxGeometry height="1040" width="170" x="340" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-70" parent="b8TRkYSkjG2ReapsLzzX-9" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;SonarQube&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="100" x="30.000000000000004" y="30" as="geometry" />
@@ -88,7 +88,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-22" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="扫描平台" vertex="1">
-          <mxGeometry height="1040" width="210" x="490" y="20" as="geometry" />
+          <mxGeometry height="1040" width="210" x="510" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-25" parent="b8TRkYSkjG2ReapsLzzX-22" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;扫描平台&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="50" y="30" as="geometry" />
@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;" value="数据库" vertex="1">
-          <mxGeometry height="1040" width="180" x="700" y="20" as="geometry" />
+          <mxGeometry height="1040" width="180" x="720" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-45" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -231,8 +231,11 @@
             <mxPoint x="100" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-191" parent="b8TRkYSkjG2ReapsLzzX-44" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#FCCEB7;strokeColor=#0C2FB0;" value="" vertex="1">
+          <mxGeometry height="200" width="470" x="-330" y="480" as="geometry" />
+        </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="消息通知/看版展示" vertex="1">
-          <mxGeometry height="1040" width="220" x="880" y="20" as="geometry" />
+          <mxGeometry height="1040" width="220" x="900" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-53" edge="1" parent="b8TRkYSkjG2ReapsLzzX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -278,6 +281,7 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF2D;strokeColor=#d6b656;" value="更新应用信息" vertex="1">
           <mxGeometry height="30" width="230" x="820" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-189" parent="0" value="最底层" />
       </root>
     </mxGraphModel>
   </diagram>
