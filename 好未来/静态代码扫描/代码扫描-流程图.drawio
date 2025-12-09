@@ -144,7 +144,7 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-43" edge="1" parent="b8TRkYSkjG2ReapsLzzX-22" source="b8TRkYSkjG2ReapsLzzX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="b8TRkYSkjG2ReapsLzzX-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="DB" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据库" vertex="1">
           <mxGeometry height="780" width="195" x="890" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-45" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
@@ -163,7 +163,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-48" parent="b8TRkYSkjG2ReapsLzzX-44" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font face=&quot;Verdana&quot;&gt;Mysql&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="70" width="85" x="55" y="400" as="geometry" />
+          <mxGeometry height="70" width="85" x="70" y="150" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-49" edge="1" parent="b8TRkYSkjG2ReapsLzzX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b8TRkYSkjG2ReapsLzzX-57">
           <mxGeometry relative="1" as="geometry">
@@ -176,7 +176,7 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-51" edge="1" parent="b8TRkYSkjG2ReapsLzzX-1" source="b8TRkYSkjG2ReapsLzzX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b8TRkYSkjG2ReapsLzzX-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="前端展示" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="知音楼/爱分析" vertex="1">
           <mxGeometry height="780" width="160" x="1085" y="20" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-53" edge="1" parent="b8TRkYSkjG2ReapsLzzX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
