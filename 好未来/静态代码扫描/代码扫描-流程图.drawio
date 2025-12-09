@@ -166,14 +166,17 @@
         <mxCell id="b8TRkYSkjG2ReapsLzzX-137" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9.问题对比逻辑" vertex="1">
           <mxGeometry height="20" width="170" x="60" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-138" edge="1" parent="b8TRkYSkjG2ReapsLzzX-22" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="100" y="590" as="sourcePoint" />
-            <mxPoint x="440" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-139" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8.保存应用问题数据至数据库" vertex="1">
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-139" parent="b8TRkYSkjG2ReapsLzzX-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8.保存应用报告至数据库" vertex="1">
           <mxGeometry height="30" width="180" x="160" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-140" edge="1" parent="b8TRkYSkjG2ReapsLzzX-22" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="650" />
+            </Array>
+            <mxPoint x="100" y="650" as="sourcePoint" />
+            <mxPoint x="620" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-44" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据库" vertex="1">
           <mxGeometry height="900" width="195" x="830" y="20" as="geometry" />
@@ -201,6 +204,12 @@
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-89" parent="b8TRkYSkjG2ReapsLzzX-44" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;数据库&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="115" x="40" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-138" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-230" y="590" as="sourcePoint" />
+            <mxPoint x="100" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="消息通知/看版展示" vertex="1">
           <mxGeometry height="900" width="175" x="1025" y="20" as="geometry" />
