@@ -73,8 +73,14 @@
             <mxPoint x="80" y="540" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b8TRkYSkjG2ReapsLzzX-48" parent="b8TRkYSkjG2ReapsLzzX-44" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font face=&quot;Verdana&quot;&gt;Mysql&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="70" width="85" x="70" y="310" as="geometry" />
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-90" edge="1" parent="b8TRkYSkjG2ReapsLzzX-44" source="b8TRkYSkjG2ReapsLzzX-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="b8TRkYSkjG2ReapsLzzX-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-88" parent="b8TRkYSkjG2ReapsLzzX-44" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;数据库&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8TRkYSkjG2ReapsLzzX-89" parent="b8TRkYSkjG2ReapsLzzX-44" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;数据库&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="40" y="700" as="geometry" />
         </mxCell>
         <mxCell id="b8TRkYSkjG2ReapsLzzX-52" parent="b8TRkYSkjG2ReapsLzzX-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="消息通知/看版展示" vertex="1">
           <mxGeometry height="790" width="175" x="925" y="20" as="geometry" />
