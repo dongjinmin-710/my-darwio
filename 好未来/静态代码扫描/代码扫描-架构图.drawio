@@ -41,7 +41,7 @@
           <mxGeometry height="80" width="510" x="140" y="450" as="geometry" />
         </mxCell>
         <mxCell id="mncAVvJtPpeknERfUIQ4-12" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SonarQube Server" vertex="1">
-          <mxGeometry height="30" width="380" x="270" y="360" as="geometry" />
+          <mxGeometry height="30" width="380" x="280" y="360" as="geometry" />
         </mxCell>
         <mxCell id="mncAVvJtPpeknERfUIQ4-14" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="120" width="560" x="110" y="160" as="geometry" />
