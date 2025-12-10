@@ -161,7 +161,7 @@
           <mxGeometry height="40" width="520" x="120" y="570" as="geometry" />
         </mxCell>
         <mxCell id="QhxnxGrDx0G7pzBPhhNR-24" parent="QhxnxGrDx0G7pzBPhhNR-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="BI看版数据展示" vertex="1">
-          <mxGeometry height="80" width="100" x="240" y="45" as="geometry" />
+          <mxGeometry height="80" width="200" x="140" y="50" as="geometry" />
         </mxCell>
         <mxCell id="QhxnxGrDx0G7pzBPhhNR-25" parent="QhxnxGrDx0G7pzBPhhNR-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="报告通知" vertex="1">
           <mxGeometry height="80" width="210" x="410" y="50" as="geometry" />
