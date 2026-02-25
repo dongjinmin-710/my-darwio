@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
   <diagram name="第 1 页" id="F7NMXYymAI_Y4ROvBx0B">
-    <mxGraphModel dx="848" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
+    <mxGraphModel dx="1653" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="mncAVvJtPpeknERfUIQ4-11" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SonarScanner CLI" vertex="1">
           <mxGeometry height="80" width="510" x="140" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="mncAVvJtPpeknERfUIQ4-12" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SonarQube Server" vertex="1">
+        <mxCell id="mncAVvJtPpeknERfUIQ4-12" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SonarQube Server" vertex="1">
           <mxGeometry height="30" width="380" x="280" y="360" as="geometry" />
         </mxCell>
         <mxCell id="mncAVvJtPpeknERfUIQ4-14" parent="mncAVvJtPpeknERfUIQ4-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
