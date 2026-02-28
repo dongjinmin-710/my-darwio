@@ -22,7 +22,7 @@
         <mxCell id="N-wFuskD2Wq0OkiKD7EK-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="图片上传服务" vertex="1">
           <mxGeometry height="40" width="130" x="660" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="N-wFuskD2Wq0OkiKD7EK-8" edge="1" parent="1" source="N-wFuskD2Wq0OkiKD7EK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=none;" target="N-wFuskD2Wq0OkiKD7EK-7" value="屏下版面图片">
+        <mxCell id="N-wFuskD2Wq0OkiKD7EK-8" edge="1" parent="1" source="N-wFuskD2Wq0OkiKD7EK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=none;" target="N-wFuskD2Wq0OkiKD7EK-7" value="版面图片">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N-wFuskD2Wq0OkiKD7EK-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="图片处理(矫正)" vertex="1">
