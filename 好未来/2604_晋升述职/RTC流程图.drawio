@@ -129,9 +129,9 @@
             <mxPoint x="137.1111111111111" y="685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhVXiTqLZ_s8IZine5MY-27" connectable="0" parent="FCA9sh9pO4Cygm1Ptmgb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Bridge" vertex="1">
+        <mxCell id="xhVXiTqLZ_s8IZine5MY-27" connectable="0" parent="FCA9sh9pO4Cygm1Ptmgb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" value="Bridge" vertex="1">
           <mxGeometry relative="1" x="0.4934" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="22" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="WS事件转发" vertex="1">
