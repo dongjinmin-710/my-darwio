@@ -40,14 +40,16 @@
         <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="讲题推流配置" vertex="1">
           <mxGeometry height="45" width="130" x="230" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="xhVXiTqLZ_s8IZine5MY-7" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="n5">
+        <mxCell id="xhVXiTqLZ_s8IZine5MY-11" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="n5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="233" />
-              <mxPoint x="795" y="233" />
-              <mxPoint x="795" y="230" />
-              <mxPoint x="798" y="230" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhVXiTqLZ_s8IZine5MY-12" connectable="0" parent="xhVXiTqLZ_s8IZine5MY-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="开始流截取" vertex="1">
+          <mxGeometry relative="1" x="0.0805" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="推流配置" vertex="1">
