@@ -44,7 +44,7 @@
           <mxGeometry height="45" width="120" x="510" y="119" as="geometry" />
         </mxCell>
         <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Session 开始" vertex="1">
-          <mxGeometry height="44" width="131" x="1140" y="119" as="geometry" />
+          <mxGeometry height="44" width="131" x="1104" y="119" as="geometry" />
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="n3" value="配置上行">
           <mxGeometry relative="1" as="geometry" />
@@ -64,11 +64,16 @@
         <mxCell id="n6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" value="WS- Connect" vertex="1">
           <mxGeometry height="86" width="161" x="493.5" y="292" as="geometry" />
         </mxCell>
-        <mxCell id="e6c" edge="1" parent="1" source="n4" style="dashed=1;fontColor=#999999;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="lane_bg_algo" value="保持长连接">
-          <mxGeometry relative="1" x="-1" y="51" as="geometry">
-            <mxPoint x="-2" y="5" as="offset" />
+        <mxCell id="e6c" edge="1" parent="1" source="n4" style="dashed=1;fontColor=#999999;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="n14" value="">
+          <mxGeometry relative="1" x="-0.1364" y="3" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="1050" y="335" as="sourcePoint" />
             <mxPoint x="1400" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhVXiTqLZ_s8IZine5MY-1" connectable="0" parent="e6c" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;" value="保持长连接" vertex="1">
+          <mxGeometry relative="1" x="-0.0409" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FCA9sh9pO4Cygm1Ptmgb-10" edge="1" parent="1" source="n7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="n8">
@@ -76,6 +81,11 @@
             <Array as="points">
               <mxPoint x="835" y="494" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhVXiTqLZ_s8IZine5MY-2" connectable="0" parent="FCA9sh9pO4Cygm1Ptmgb-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="音视频推流" vertex="1">
+          <mxGeometry relative="1" x="-0.4041" y="2" as="geometry">
+            <mxPoint x="121" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="开始推流" vertex="1">
@@ -99,7 +109,7 @@
           <mxGeometry height="86" width="130" x="509" y="596" as="geometry" />
         </mxCell>
         <mxCell id="n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="音视频处理&lt;br&gt;事件处理" vertex="1">
-          <mxGeometry height="93" width="140" x="1231.5" y="637.5" as="geometry" />
+          <mxGeometry height="93" width="140" x="1099.5" y="698" as="geometry" />
         </mxCell>
         <mxCell id="FCA9sh9pO4Cygm1Ptmgb-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="进入讲题" vertex="1">
           <mxGeometry height="45" width="130" x="17" y="119" as="geometry" />
