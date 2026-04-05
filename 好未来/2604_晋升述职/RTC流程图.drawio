@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="R2o41Xb72cAwZv_1t29W">
-    <mxGraphModel dx="1984" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry height="822" width="228" x="-48" y="38" as="geometry" />
         </mxCell>
         <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" value="多模RTC讲题 端到端技术方案" vertex="1">
-          <mxGeometry height="30" width="1500" y="10" as="geometry" />
+          <mxGeometry height="28" width="1358" x="-48" y="10" as="geometry" />
         </mxCell>
         <mxCell id="lane_bg_client" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;opacity=30;" value="" vertex="1">
           <mxGeometry height="820" width="250" x="180" y="40" as="geometry" />
@@ -80,6 +80,16 @@
         </mxCell>
         <mxCell id="FCA9sh9pO4Cygm1Ptmgb-13" edge="1" parent="1" source="n6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzHdiMlkr68pbldSBTeZ-1" connectable="0" parent="FCA9sh9pO4Cygm1Ptmgb-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontSize%3D13%3BlabelBackgroundColor%3Dnone%3B%22%20value%3D%22kafka%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22572%22%20y%3D%22713%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3Ef&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3176" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzHdiMlkr68pbldSBTeZ-2" connectable="0" parent="FCA9sh9pO4Cygm1Ptmgb-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=13;" value="kafka" vertex="1">
+          <mxGeometry relative="1" x="0.3412" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="n6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" value="WS- Connect" vertex="1">
           <mxGeometry height="86" width="161" x="493.5" y="348" as="geometry" />
