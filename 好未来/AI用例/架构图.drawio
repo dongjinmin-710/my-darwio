@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="testhub-architecture-replica" name="Page-1">
+    <mxGraphModel dx="1414" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#79AFA6;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="70" width="820" x="130" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD3A1;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="95" width="820" x="130" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EE9494;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="80" width="820" x="130" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6FA6E7;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="70" width="820" x="130" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6E9E96;strokeColor=#000000;fontSize=16;fontStyle=1;" value="应用层" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7C692;strokeColor=#000000;fontSize=16;fontStyle=1;" value="服务层" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E89898;strokeColor=#000000;fontSize=16;fontStyle=1;" value="数据层" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66A0E4;strokeColor=#000000;fontSize=16;fontStyle=1;" value="基础层" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="AI测试用例生成" vertex="1">
+          <mxGeometry height="30" width="90" x="150" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="用例集管理" vertex="1">
+          <mxGeometry height="30" width="90" x="250" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="用例下载" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="Prompt管理" vertex="1">
+          <mxGeometry height="30" width="110" x="450" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="模型管理" vertex="1">
+          <mxGeometry height="30" width="90" x="570" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="权限管理" vertex="1">
+          <mxGeometry height="30" width="80" x="670" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="UI自动化" vertex="1">
+          <mxGeometry height="30" width="80" x="760" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="质效大盘" vertex="1">
+          <mxGeometry height="30" width="80" x="850" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="需求分片" vertex="1">
+          <mxGeometry height="30" width="120" x="150" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="数据清洗" vertex="1">
+          <mxGeometry height="30" width="120" x="280" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="RAG增强检索" vertex="1">
+          <mxGeometry height="30" width="120" x="410" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="语义匹配" vertex="1">
+          <mxGeometry height="30" width="120" x="540" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="融合混排" vertex="1">
+          <mxGeometry height="30" width="120" x="670" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="Prompt模板组合" vertex="1">
+          <mxGeometry height="30" width="120" x="800" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="业务分类" vertex="1">
+          <mxGeometry height="30" width="120" x="150" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="结构化规范" vertex="1">
+          <mxGeometry height="30" width="120" x="280" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="关键词匹配" vertex="1">
+          <mxGeometry height="30" width="120" x="410" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="多路检索召回" vertex="1">
+          <mxGeometry height="30" width="120" x="540" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="分词向量化" vertex="1">
+          <mxGeometry height="30" width="120" x="670" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="动态配置" vertex="1">
+          <mxGeometry height="30" width="120" x="800" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="需求文档集" vertex="1">
+          <mxGeometry height="30" width="120" x="150" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="技术文档集" vertex="1">
+          <mxGeometry height="30" width="120" x="310" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="测试用例集" vertex="1">
+          <mxGeometry height="30" width="120" x="470" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="采购用例集" vertex="1">
+          <mxGeometry height="30" width="120" x="630" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="评测数据集" vertex="1">
+          <mxGeometry height="30" width="120" x="790" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="agent开发框架" vertex="1">
+          <mxGeometry height="30" width="120" x="160" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="LLM" vertex="1">
+          <mxGeometry height="30" width="120" x="290" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="知识图谱" vertex="1">
+          <mxGeometry height="30" width="120" x="420" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="MCP" vertex="1">
+          <mxGeometry height="30" width="120" x="550" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="消息队列" vertex="1">
+          <mxGeometry height="30" width="120" x="680" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="向量库" vertex="1">
+          <mxGeometry height="30" width="120" x="810" y="311" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
