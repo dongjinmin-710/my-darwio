@@ -26,10 +26,10 @@
           <mxGeometry height="40" width="100" x="20" y="221" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66A0E4;strokeColor=#000000;fontSize=16;fontStyle=1;" value="基础层" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="306" as="geometry" />
+          <mxGeometry height="51" width="100" x="20" y="306" as="geometry" />
         </mxCell>
-        <mxCell id="10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="AI测试用例生成" vertex="1">
-          <mxGeometry height="30" width="90" x="150" y="41" as="geometry" />
+        <mxCell id="10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="用例生成" vertex="1">
+          <mxGeometry height="31.5" width="97" x="144" y="41" as="geometry" />
         </mxCell>
         <mxCell id="11" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="用例集管理" vertex="1">
           <mxGeometry height="30" width="90" x="250" y="41" as="geometry" />
@@ -89,37 +89,34 @@
           <mxGeometry height="30" width="120" x="800" y="154" as="geometry" />
         </mxCell>
         <mxCell id="30" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="需求文档集" vertex="1">
-          <mxGeometry height="30" width="120" x="150" y="225" as="geometry" />
+          <mxGeometry height="30" width="120" x="199" y="226" as="geometry" />
         </mxCell>
         <mxCell id="31" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="技术文档集" vertex="1">
-          <mxGeometry height="30" width="120" x="310" y="225" as="geometry" />
+          <mxGeometry height="30" width="120" x="379" y="226" as="geometry" />
         </mxCell>
         <mxCell id="32" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="测试用例集" vertex="1">
-          <mxGeometry height="30" width="120" x="470" y="225" as="geometry" />
-        </mxCell>
-        <mxCell id="33" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="采购用例集" vertex="1">
-          <mxGeometry height="30" width="120" x="630" y="225" as="geometry" />
+          <mxGeometry height="30" width="120" x="592" y="226" as="geometry" />
         </mxCell>
         <mxCell id="34" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="评测数据集" vertex="1">
-          <mxGeometry height="30" width="120" x="790" y="225" as="geometry" />
+          <mxGeometry height="30" width="120" x="779" y="226" as="geometry" />
         </mxCell>
         <mxCell id="35" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="agent开发框架" vertex="1">
           <mxGeometry height="30" width="120" x="160" y="311" as="geometry" />
         </mxCell>
         <mxCell id="36" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="LLM" vertex="1">
-          <mxGeometry height="30" width="120" x="290" y="311" as="geometry" />
+          <mxGeometry height="30" width="120" x="319" y="311" as="geometry" />
         </mxCell>
         <mxCell id="37" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="知识图谱" vertex="1">
-          <mxGeometry height="30" width="120" x="420" y="311" as="geometry" />
-        </mxCell>
-        <mxCell id="38" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="MCP" vertex="1">
-          <mxGeometry height="30" width="120" x="550" y="311" as="geometry" />
-        </mxCell>
-        <mxCell id="39" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="消息队列" vertex="1">
-          <mxGeometry height="30" width="120" x="680" y="311" as="geometry" />
+          <mxGeometry height="30" width="120" x="503" y="311" as="geometry" />
         </mxCell>
         <mxCell id="40" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="向量库" vertex="1">
           <mxGeometry height="30" width="120" x="810" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="Dr9D5QvL5G3K6XEYiDRb-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=16;fontStyle=1;fontColor=#ffffff;" value="AI模型底座" vertex="1">
+          <mxGeometry height="53" width="932" x="20" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="Dr9D5QvL5G3K6XEYiDRb-41" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="图数据库" vertex="1">
+          <mxGeometry height="30" width="120" x="668" y="311" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
