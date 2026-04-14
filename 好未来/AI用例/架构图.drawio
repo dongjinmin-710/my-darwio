@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="testhub-architecture-replica" name="Page-1">
-    <mxGraphModel dx="1414" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,9 @@
         </mxCell>
         <mxCell id="Dr9D5QvL5G3K6XEYiDRb-41" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=14;" value="图数据库" vertex="1">
           <mxGeometry height="30" width="120" x="668" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="LfHl2sYUUJKRnGnok0Gi-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=16;fontStyle=1;fontColor=#ffffff;" value="AI模型底座" vertex="1">
+          <mxGeometry height="53" width="932" x="50" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
