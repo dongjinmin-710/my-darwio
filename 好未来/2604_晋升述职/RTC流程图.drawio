@@ -312,7 +312,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ajnDgTB7ja-2loAQ680l-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="事件指标统计" vertex="1">
-          <mxGeometry height="82.5" width="132" x="1121" y="2057" as="geometry" />
+          <mxGeometry height="69" width="136" x="1119" y="2054" as="geometry" />
         </mxCell>
         <mxCell id="ajnDgTB7ja-2loAQ680l-70" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ajnDgTB7ja-2loAQ680l-45" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
