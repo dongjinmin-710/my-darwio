@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="levHARyWwQzOpy4eLZ7D">
-    <mxGraphModel dx="6707" dy="4993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,6 +483,35 @@
         </mxCell>
         <mxCell id="F6TGyb1iPRrAhXedug_K-38" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Redis" vertex="1">
           <mxGeometry height="62" width="145" x="6130" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-43" edge="1" parent="1" source="F6TGyb1iPRrAhXedug_K-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="F6TGyb1iPRrAhXedug_K-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="server" vertex="1">
+          <mxGeometry height="40" width="120" x="5770" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-44" edge="1" parent="1" source="F6TGyb1iPRrAhXedug_K-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="F6TGyb1iPRrAhXedug_K-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-49" edge="1" parent="1" source="F6TGyb1iPRrAhXedug_K-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6020" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="worker" vertex="1">
+          <mxGeometry height="40" width="120" x="5960" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="Xpad2" vertex="1">
+          <mxGeometry height="40" width="120" x="6155" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="Xpad1" vertex="1">
+          <mxGeometry height="40" width="120" x="6155" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="..." vertex="1">
+          <mxGeometry height="40" width="120" x="6155" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="F6TGyb1iPRrAhXedug_K-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b6e8;strokeColor=#69b6e8;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="音频设备" vertex="1">
+          <mxGeometry height="40" width="120" x="5960" y="762" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
