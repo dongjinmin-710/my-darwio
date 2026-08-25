@@ -1,9 +1,216 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="第 1 页" id="iw8vVi4ijRY47gdVH0uz">
-    <mxGraphModel>
+  <diagram name="测试用例生成与管理时序图" id="iw8vVi4ijRY47gdVH0uz">
+    <mxGraphModel dx="1548" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-1" parent="1" style="swimlane;horizontal=1;startSize=34;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=18;" value="测试用例生成与管理 — 时序图" vertex="1">
+          <mxGeometry height="930" width="1480" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-2" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="测试人员 / 前端" vertex="1">
+          <mxGeometry height="50" width="145" x="75" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-3" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Django REST API" vertex="1">
+          <mxGeometry height="50" width="155" x="295" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-4" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="TestCaseOrchestrator&lt;br&gt;后台线程" vertex="1">
+          <mxGeometry height="50" width="165" x="530" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-5" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="AI 服务&lt;br&gt;Writer / Reviewer" vertex="1">
+          <mxGeometry height="50" width="170" x="775" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-6" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="业务数据库&lt;br&gt;Task / Generated / TestCase" vertex="1">
+          <mxGeometry height="72" width="185" x="1025" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-7" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Qdrant 知识库" vertex="1">
+          <mxGeometry height="72" width="145" x="1290" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-8" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-2" style="endArrow=none;dashed=1;strokeColor=#82b366;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="147" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-9" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="endArrow=none;dashed=1;strokeColor=#6c8ebf;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="372" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-10" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="endArrow=none;dashed=1;strokeColor=#666666;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="612" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-11" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-5" style="endArrow=none;dashed=1;strokeColor=#d6b656;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-12" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-6" style="endArrow=none;dashed=1;strokeColor=#b85450;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1117" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-13" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-7" style="endArrow=none;dashed=1;strokeColor=#82b366;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1362" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-14" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="生成阶段" vertex="1">
+          <mxGeometry height="315" width="80" x="20" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-15" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="评审与采纳阶段" vertex="1">
+          <mxGeometry height="385" width="80" x="20" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-16" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" style="endArrow=none;dashed=1;strokeColor=#d6b656;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="535" as="sourcePoint" />
+            <mxPoint x="1370" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-17" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-3" value="1. 创建生成任务（需求文本 / 拆分结果）">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="185" />
+              <mxPoint x="372" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-18" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-6" value="2. 创建任务：pending">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="225" />
+              <mxPoint x="1117" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-19" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-4" value="3. 启动后台生成线程">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="265" />
+              <mxPoint x="612" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-20" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;dashed=1;" target="3vT7YG_RbAQ2v8sGBKCH-2" value="4. 返回 task_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="305" />
+              <mxPoint x="147" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-21" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-7" value="5. 检索历史需求与已采纳用例">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="350" />
+              <mxPoint x="1362" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-22" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;dashed=1;" target="3vT7YG_RbAQ2v8sGBKCH-4" value="6. 返回相关知识">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1362" y="390" />
+              <mxPoint x="612" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-23" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-5" value="7. WriterAgent 生成测试用例">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="430" />
+              <mxPoint x="860" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-24" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;dashed=1;" target="3vT7YG_RbAQ2v8sGBKCH-4" value="8. 返回生成结果">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="470" />
+              <mxPoint x="612" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-25" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-6" value="9. 保存 GeneratedTestCase，状态 generated">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="505" />
+              <mxPoint x="1117" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-26" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-3" value="10. 触发 AI 评审">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="575" />
+              <mxPoint x="372" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-27" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-4" value="11. 启动后台评审线程">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="615" />
+              <mxPoint x="612" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-28" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-5" value="12. ReviewerAgent 评审">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="655" />
+              <mxPoint x="860" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-29" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;dashed=1;" target="3vT7YG_RbAQ2v8sGBKCH-4" value="13. 返回通过 / 问题清单">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="695" />
+              <mxPoint x="612" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-30" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;dashed=1;" target="3vT7YG_RbAQ2v8sGBKCH-5" value="14. 不通过时：WriterAgent 修订">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="735" />
+              <mxPoint x="860" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-31" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-6" value="15. 保存评审结果，任务 completed">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="775" />
+              <mxPoint x="1117" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-32" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-3" value="16. 批量采纳">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="815" />
+              <mxPoint x="372" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-33" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-6" value="17. 创建正式 TestCase，标记 adopted">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="850" />
+              <mxPoint x="1117" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vT7YG_RbAQ2v8sGBKCH-34" edge="1" parent="3vT7YG_RbAQ2v8sGBKCH-1" source="3vT7YG_RbAQ2v8sGBKCH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;" target="3vT7YG_RbAQ2v8sGBKCH-7" value="18. 采纳用例写入知识库">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="880" />
+              <mxPoint x="1362" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
