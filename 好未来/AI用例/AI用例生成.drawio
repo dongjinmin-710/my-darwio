@@ -1,9 +1,133 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="第 1 页" id="OInBbWzBoI2pHUoJH65g">
-    <mxGraphModel>
+  <diagram name="测试用例生成与管理" id="OInBbWzBoI2pHUoJH65g">
+    <mxGraphModel dx="1437" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9997" pageHeight="11169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-55" parent="1" style="swimlane;horizontal=1;startSize=34;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=18;" value="测试用例生成与管理" vertex="1">
+          <mxGeometry height="900" width="1450" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-56" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="用户层" vertex="1">
+          <mxGeometry height="115" width="70" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-57" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="接入层" vertex="1">
+          <mxGeometry height="115" width="70" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-58" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="核心服务层" vertex="1">
+          <mxGeometry height="250" width="70" x="20" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-59" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="数据层" vertex="1">
+          <mxGeometry height="135" width="70" x="20" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-60" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="AI 与知识服务" vertex="1">
+          <mxGeometry height="155" width="70" x="20" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-61" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="测试人员 / 管理员&lt;br&gt;Web 前端" vertex="1">
+          <mxGeometry height="55" width="200" x="130" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-62" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Django REST API" vertex="1">
+          <mxGeometry height="52" width="180" x="130" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-63" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="需求分析 API&lt;br&gt;documents / split-results" vertex="1">
+          <mxGeometry height="72" width="205" x="375" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-64" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="生成与评审 API&lt;br&gt;testcase-generation" vertex="1">
+          <mxGeometry height="72" width="205" x="645" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-65" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="用例与人工评审 API&lt;br&gt;testcases / reviews" vertex="1">
+          <mxGeometry height="72" width="205" x="915" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-66" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SplitterAgent&lt;br&gt;需求结构化拆分" vertex="1">
+          <mxGeometry height="64" width="180" x="130" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-67" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="TestCaseGenerationTask&lt;br&gt;任务、进度与状态管理" vertex="1">
+          <mxGeometry height="64" width="205" x="365" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-68" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="TestCaseOrchestrator&lt;br&gt;后台线程编排" vertex="1">
+          <mxGeometry height="64" width="205" x="635" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-69" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="WriterAgent&lt;br&gt;测试用例生成与修订" vertex="1">
+          <mxGeometry height="64" width="180" x="905" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-70" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ReviewerAgent&lt;br&gt;AI 评审与反馈" vertex="1">
+          <mxGeometry height="64" width="180" x="905" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-71" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="正式用例管理&lt;br&gt;版本、步骤、附件、执行、人工评审" vertex="1">
+          <mxGeometry height="82" width="225" x="1150" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-72" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="批量采纳&lt;br&gt;adopted" vertex="1">
+          <mxGeometry height="52" width="145" x="665" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-73" parent="PoDdPNBxfpDRUiTf1oaz-55" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="需求数据&lt;br&gt;RequirementDocument&lt;br&gt;RequirementSplitResult" vertex="1">
+          <mxGeometry height="80" width="190" x="135" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-74" parent="PoDdPNBxfpDRUiTf1oaz-55" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="生成结果数据&lt;br&gt;Task + GeneratedTestCase" vertex="1">
+          <mxGeometry height="80" width="200" x="430" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-75" parent="PoDdPNBxfpDRUiTf1oaz-55" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="正式用例数据&lt;br&gt;TestCase / Step / Review" vertex="1">
+          <mxGeometry height="80" width="200" x="735" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-76" parent="PoDdPNBxfpDRUiTf1oaz-55" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="AI 配置&lt;br&gt;AIModelConfig + PromptConfig" vertex="1">
+          <mxGeometry height="80" width="210" x="1040" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-77" parent="PoDdPNBxfpDRUiTf1oaz-55" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="AI 服务&lt;br&gt;LLM + Qdrant 知识库&lt;br&gt;生成检索与采纳回灌" vertex="1">
+          <mxGeometry height="80" width="235" x="405" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-78" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-61" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-62" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-79" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-62" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-80" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-62" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-81" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-62" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-82" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-63" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-66" value="拆分">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-83" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-66" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-67" value="结构化需求">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-84" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-64" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-67" value="创建 / 触发">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-85" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-67" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-68" value="后台执行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-86" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-68" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-69" value="生成 / 修订">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-87" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-68" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-70" value="AI 评审">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-88" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-70" style="endArrow=block;html=1;rounded=0;dashed=1;" target="PoDdPNBxfpDRUiTf1oaz-69" value="不通过：修订">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-89" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-70" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-72" value="采纳">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-90" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-72" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-71" value="正式化">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-91" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-69" style="endArrow=block;html=1;rounded=0;dashed=1;" target="PoDdPNBxfpDRUiTf1oaz-77" value="调用与检索">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="995" y="690" />
+              <mxPoint x="525" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoDdPNBxfpDRUiTf1oaz-92" edge="1" parent="PoDdPNBxfpDRUiTf1oaz-55" source="PoDdPNBxfpDRUiTf1oaz-72" style="endArrow=block;html=1;rounded=0;" target="PoDdPNBxfpDRUiTf1oaz-77" value="采纳后回灌">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="710" />
+              <mxPoint x="525" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
